@@ -1,0 +1,138 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    flex: 1 1 0%;
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    height: 65px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.ad {
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.template {
+    border-radius: 8px;
+    height :90px;
+    width: 700px;
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    color: white;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    border-style: solid;
+    border-color: white;
+    background-color: #3882f6;
+    padding: 5px 15px;
+    border-radius: 8px;
+    color: white;
+    
+}
+
+.quote {
+    height: 300px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author {
+    padding: 0px 0px 0px 550px;
+    font-weight: bold;
+}
+
+.content {
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 400px;
+    background-color: #1f2937;
+}
+
+.content-header, .subtext {
+    text-align: center;
+}
+
+.content-header {
+    font-weight: bold;
+    font-size: 36px;
+    color: #1f2937;
+
+}
+
+.container{
+    height: 260px;
+    width: 820px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subcontainer {
+    height: 240px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+.items {
+    height: 240px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 130px;
+    width: 130px;
+    border-style: solid;
+    border-radius: 8px;
+}
